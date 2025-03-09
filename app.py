@@ -5,7 +5,7 @@ import openai
 from dotenv import load_dotenv
 import os
 
-load_dotenv(dotenv_path='C:/Users/gosha/Downloads/DeltaHacksXI/DeltaHacksXI/keys.env')
+load_dotenv(PATH)
 
 
 app = Flask(__name__)
